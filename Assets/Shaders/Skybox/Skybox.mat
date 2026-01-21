@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1220288794843378713
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Skybox
+  m_Shader: {fileID: -6465566751694194690, guid: acca0c22c07c5f3479c14c04aaf24e3b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_6d1ea164e86549169abd93eb47c3f045_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_fb7c9cc0174145949ae0e149f804a662_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BUILTIN_QueueControl: 0
+    - _BUILTIN_QueueOffset: 0
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DayNightSlider: 0
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HorizonBlend: 50
+    - _Metallic: 0
+    - _Mode: 0
+    - _MoonRotation: 180
+    - _MoonSize: 0.34
+    - _NadirBlend: 0.01
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StarHeight: 103
+    - _StarIntensity: 4
+    - _StarPower: 48.7
+    - _StarRotation: 32.3
+    - _SunIntensity: 1
+    - _SunMask: 0.32
+    - _SunMaskRotation: 180
+    - _SunSize: 0.11
+    - _UVSec: 0
+    - _ZWrite: 1
+    - _ZenithBlend: 0.01
+    m_Colors:
+    - _: {r: 0.77240574, g: 0.8018868, b: 0, a: 0.7529412}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GroundColor: {r: 0.12495552, g: 0.2779802, b: 0.6792453, a: 0}
+    - _HorizonColor: {r: 0.23137255, g: 0.38431373, b: 0.8862745, a: 0}
+    - _MainLightDirection: {r: 0, g: -0.9238795, b: 0.3826834, a: 0}
+    - _MoonAxis: {r: 1, g: 0, b: 0, a: 0}
+    - _NightHorizonColor: {r: 0.14509805, g: 0.2, b: 0.45882353, a: 0}
+    - _NightHorizonColor_Bottom_1: {r: 0.42452827, g: 0.13817185, b: 0.39505196, a: 0}
+    - _NightSkyColor: {r: 0.06666667, g: 0.082647294, b: 0.30980393, a: 0}
+    - _NightSkyColor_Bottom: {r: 0.14509805, g: 0.20000002, b: 0.45882356, a: 0}
+    - _NightSkyColor_Top: {r: 0.16862746, g: 0.14117648, b: 0.37647063, a: 0}
+    - _SkyColor: {r: 0.09158063, g: 0.6439565, b: 0.9245283, a: 0}
+    - _SkyColor_Bottom: {r: 0, g: 0.54139423, b: 1, a: 0}
+    - _SkyColor_Top: {r: 0, g: 0.56737566, b: 1, a: 0}
+    - _SkyboxMoonColor: {r: 1.1698518, g: 0.9832614, b: 0, a: 0}
+    - _SkyboxSunColor: {r: 1.8660661, g: 1.4301643, b: 0, a: 0}
+    - _StarLightDirection: {r: 0, g: 0, b: 0, a: 0}
+    - _SunDirection: {r: 19.2, g: -16.03, b: 4, a: 0}
+    - _SunMaskAxis: {r: 13.45, g: 0.3, b: -0.1, a: 0}
+    - __1: {r: 127.97, g: 67.64, b: 161.85, a: 86.66}
+  m_BuildTextureStacks: []
